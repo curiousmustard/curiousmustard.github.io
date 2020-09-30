@@ -1,26 +1,23 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
-# Permalinks
-permalink:        pretty
-
-
 # Setup
 title:            Curious Mustard
 # tagline:          'A Jekyll theme'
 description:      'A blog I suppose'
 url:              https://curiousmustard.github.io/
-baseurl:          /
-
-author:
-  name:           'Jen Hubbard'
-  url:            https://twitter.com/curiousmustard
-
+baseurl:          ''
 paginate:         5
 
-# Custom vars
-version:          2.1.0
+# About and contact
+author:
+  name:           'Jen Hubbard'
+  url:            https://twitter.com/curiousmustard.com
 
-github:
-  repo:           https://github.com/curiousmustard/curiousmustard.github.io
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  
+# Permalinks
+permalink:        pretty
+
+# Custom vars
+version:          3.0.0
